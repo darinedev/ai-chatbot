@@ -1,6 +1,6 @@
-**🤖 Simple AI Chatbot**
+# **🤖 Simple AI Chatbot**
 Un chatbot simple en Python qui peut utiliser différentes APIs d'IA (OpenAI, Groq) ou fonctionner en mode simulation.
-**📁 Structure du Projet**
+## **📁 Structure du Projet**
 ai-chatbot/
 │
 ├── main.py              # Code principal du chatbot
@@ -8,19 +8,20 @@ ai-chatbot/
 ├── .env.example        # Exemple de fichier d'environnement
 ├── .gitignore          # Fichiers à ignorer par Git
 └── README.md           # Ce fichier
-**🚀 Installation**
-1- Cloner le repository :
+## **🚀 Installation**
+### 1- Cloner le repository :
 - git clone https://github.com/votre-username/ai-chatbot.git
 - cd ai-chatbot
-2- Créer un environnement virtuel :
+### 2- Créer un environnement virtuel :
 - python -m venv venv
 source venv/bin/activate  # Linux
-3- Installer les dépendances :
+### 3- Installer les dépendances :
 - pip install -r requirements.txt
-4- Configurer les variables d'environnement :
+### 4- Configurer les variables d'environnement :
 - cp .env.example .env
 # Éditez .env avec vos clés API (optionnel)
-**🎯 Utilisation**
+
+## **🎯 Utilisation**
 *Mode Simulation (par défaut - aucune API requise)*
 - python main.py
 # Avec une API réelle
@@ -42,7 +43,7 @@ GROQ_API_KEY=votre_clé_ici
 # Pour utiliser OpenAI :
 - Ajoutez dans votre .env :
 OPENAI_API_KEY=votre_clé_ici
-**🤝 Contribution**
+## **🤝 Contribution**
 Les contributions sont les bienvenues ! N'hésitez pas à :
 
 - Signaler des bugs
